@@ -7,5 +7,6 @@ LABEL Description="This image was provided by itelios to Bitrise user who want a
 RUN cd ~ && wget https://nodejs.org/dist/v4.2.3/node-v4.2.3-linux-x64.tar.gz
 RUN cd ~ && tar --strip-components 1 -xzvf node-v4.2.3-linux-x64.tar.gz -C /usr/local
 
+RUN apt-get update && apt-get install -y zip
 
 CMD node -v
