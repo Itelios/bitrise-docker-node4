@@ -1,0 +1,9 @@
+# Bitrise Docker NodeJS 4 LTS Image
+
+Just a simple image that have NodeJS 4 LTS built-in to allow script step have node command or script execution
+
+# MAINTAINER
+
+[ITELIOS](http://www.itelios.com)
+
+[Vincent Saluzzo](vincent.saluzzo@itelios.com) 
